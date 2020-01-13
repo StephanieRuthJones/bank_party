@@ -93,3 +93,20 @@ You already have your class method .all (Account.all, AccountHolder.all, Bank.al
 - OO Kickstarter
 - OO Flatiron Mifflin
 - OO Animal Zoo
+
+
+1. Look at file structure, talk about environment file talk about what it does
+2. create gemfile using bundle init
+3. can hardcode gems OR add using terminal command, bundle add then name of gem
+-bundle add pry require_all
+4. run bundle to load all gems 
+-may also see command as bundle install or bundle update
+-every time you clone a project from github, need to run bundle to install gems
+5. bring in all models and gems to environment.rb
+6. Look at models: account, bank, customer
+
+Customer#accounts - # means need an INSTANCE method called accounts in the customer class
+-specific customer === instance
+
+Bank.most_customers - . means need a CLASS method
+-all the banks of all the customers === class method
